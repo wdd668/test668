@@ -1,0 +1,29 @@
+{
+  "properties": [
+    {
+      "name": "host",
+      "type": "java.lang.String",
+      "description": "服务器地址",
+      "defaultValue": "localhost"
+    },
+    {
+      "name": "passwd",
+      "type": "java.lang.String",
+      "description": "服务器密码",
+      "defaultValue": ""
+    },
+    {
+      "name": "port",
+      "type": "java.lang.Integer",
+      "description": "端口",
+      "defaultValue": 6379
+    },
+    {
+      "name": "ifSsl",
+      "type": "java.lang.Boolean",
+      "description": "是否ssl",
+      "defaultValue": false
+    }
+  ]
+
+}
